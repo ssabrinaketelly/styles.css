@@ -1,64 +1,63 @@
-<html lang="pt-br">
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+ }
 
-<header>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jersey+10&family=Matemasie&display=swap"
-        rel="stylesheet">
-    <title>SERÁ QUE VALE APENA ?</title>
-</header>
+ header {
+    border-bottom: solid 2px rgb(10, 90, 10);
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(0, 255, 0);
+ }
 
-<body>
+ .chamada {
+    background: rgb(1, 60, 160);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+ }
 
-    <header>Será que vale apena ?</header>
+ .chamada-texto {
+    margin-right: 5%;
+}
 
-    <section class="chamada">
-        <div class="chamada-texto">
-            <h1>ASSISTI X-MEN 97 E ESTOU SEM PALAVRAS-ep 1 e 2</h1>
+h1 {
+    font-size: 28px;
+}
+p {
+    font-size: 25px;
+}
 
-            <p>#x-man</p>
-        </div>
+img {
+    height: 150px;
+}
 
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/m5BftBr_Rjw?si=ByqGmNkz--vHL87H"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </section>
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
 
-    <section class="categoria">
-        <h2>animações</h2>
-        <div class="categoria-videos">
-            <a href="https://www.youtube.com/watch?v=d4DzMNGoyis">
-                <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg" />
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
 
-                <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw">
-                    <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg" />
+.categoria-videos img{
+    opacity: 0.4;
+    height: 150px;
+}
 
-                    <a href="https://www.youtube.com/watch?v=FvRmEapoHRc">
-                        <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg" />
-                        <a href="https://www.youtube.com/watch?v=KqtKsusoJqQ">
-                            <img src="https://img.youtube.com/vi/KqtKsusoJqQ/maxresdefault.jpg" />
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid white;
+}
 
-                            <a href="https://www.youtube.com/watch?v=5V92Qf3RiSY">
-                                <img src="https://img.youtube.com/vi/5V92Qf3RiSY/maxresdefault.jpg" />
-
-                                <a href="https://www.youtube.com/watch?v=I_pvsty2cQM">
-                                    <img src="https://img.youtube.com/vi/I_pvsty2cQM/maxresdefault.jpg" />
-
-                                    <a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
-                                        <img src="https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg" />
-
-
-
-        </div>
-    </section>
-
-</body>
-
-
-
-</html>
+.categoria h2 {
+    color: rgb(0, 194, 0); ;
+}
